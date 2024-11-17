@@ -607,7 +607,7 @@ cmd_extension_or_show() {
 	fi
 }
 
-SYSTEM_EXTENSION_DIR=""
+SYSTEM_EXTENSION_DIR="/usr/lib/password-store/extensions"
 cmd_extension() {
 	check_sneaky_paths "$1"
 	local user_extension system_extension extension
